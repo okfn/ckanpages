@@ -175,7 +175,7 @@
 <!-- Snippet snippets/home_breadcrumb_item.html end -->
 
       <li ><a class=" active" href="http://sg.staging.ckanhosted.com/dataset">مجموعات البيانات</a></li>
-      <li class="active"><a class=" active" href="./Create Dataset_files/Create Dataset.html">أضف</a></li>
+      <li class="active"><a class=" active" href="./Create Dataset_files/Create Dataset.html">أضف بيانات</a></li>
     </ol>
   </div>
 
@@ -293,8 +293,7 @@
     
     <div class="control-group control-full pull-right">
     <label class="control-label" for="field-purpose">
-  
-الهدف منها</label>
+وصف البيانات</label>
     <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="Context under which data is defined or used.  E.g., Survey, Regulatory purposes." class="tip"><i class="icon-question-sign"></i></a>
     <div class="controls">
       <textarea id="field-purpose" rows="5" cols="20" name="purpose" style="margin-bottom:0;"></textarea>
@@ -1316,12 +1315,12 @@
     <div class="small control-group">
       <label for="field-organizations" class="control-label">
   <span title="This field is required" class="control-required">*</span> 
-إنشاء بيانات فوقية للوكالة</label>
+بيانات عن الوزارة أو الهيئة</label>
       <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="The agency of the data manager who created the metadata." class="tip"><i class="icon-question-sign"></i></a>
       <div class="controls">
         <div class="select2-container" id="s2id_field-organizations" style="width: 195px;"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-1">Test Agency</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen1" class="select2-offscreen">
   * 
-إنشاء بيانات فوقية للوكالة</label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1" tabindex="0"></div><select id="field-organizations" name="owner_org" data-module="autocomplete" tabindex="-1" title="
+بيانات عن الوزارة أو الهيئة</label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1" tabindex="0"></div><select id="field-organizations" name="owner_org" data-module="autocomplete" tabindex="-1" title="
   * 
 Metadata Creation Agency" class="select2-offscreen">
           
@@ -1372,7 +1371,7 @@ Metadata Creation Agency" class="select2-offscreen">
     
       
         <div class="small control-group">
-          <label for="field-private" class="control-label">Visibility</label>
+          <label for="field-private" class="control-label">الإتاحة</label>
           <div class="controls">
             <select id="field-private" name="private">
               
@@ -1390,13 +1389,13 @@ Metadata Creation Agency" class="select2-offscreen">
       <div class="small control-group">
     <label class="control-label" for="field-type_of_data_collection">
   <span title="This field is required" class="control-required">*</span> 
-Type of Data Collection</label>
+نوع البيانات</label>
     <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="Main process used in the collection of statistical data by the data compiling agency." class="tip"><i class="icon-question-sign"></i></a>
     <div class="controls">
       <select id="field-type_of_data_collection" name="type_of_data_collection">
         
           <option value="Administrative Data Collection">
-            Administrative Data Collection
+            بيانات وزارية 
           </option>
           
           <option value="Mix of Survey and Administrative Data Collection">
@@ -1418,7 +1417,7 @@ Type of Data Collection</label>
       <div class="small control-group">
     <label class="control-label" for="field-status">
   <span title="This field is required" class="control-required">*</span> 
-Status</label>
+حالة البيانات</label>
     <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="The current state of the data." class="tip"><i class="icon-question-sign"></i></a>
     <div class="controls">
       <select id="field-status" name="status">
@@ -1446,21 +1445,18 @@ Status</label>
       <div class="small control-group">
     <label class="control-label" for="field-frequency">
   <span title="This field is required" class="control-required">*</span> 
-Frequency</label>
+دورية التحديثات</label>
     <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="The time interval at which data is published." class="tip"><i class="icon-question-sign"></i></a>
     <div class="controls">
       <select id="field-frequency" name="frequency">
         
-          <option value="Ad-Hoc">
-            Ad-Hoc
-          </option>
           
           <option value="Annually">
-            Annually
+            سنوي
           </option>
           
           <option value="Daily">
-            Daily
+            يومي
           </option>
           
           <option value="Half Yearly">
@@ -1505,7 +1501,7 @@ Survey / Administrative Source</label>
     <div class="control-group control-full">
     <label class="control-label" for="field-coverage">
   <span title="This field is required" class="control-required">*</span> 
-Coverage</label>
+التغطية</label>
     <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="The definition of the population that the data aims to cover.  It describes data compiled rather than characteristics of the survey." class="tip"><i class="icon-question-sign"></i></a>
     <div class="controls">
       <textarea id="field-coverage" rows="5" cols="20" name="coverage" style="margin-bottom:0;"></textarea>
@@ -1517,12 +1513,12 @@ Coverage</label>
     <div class="control-group control-full">
       <label class="control-label" for="field-tags">
   <span title="This field is required" class="control-required">*</span> 
-Keywords</label>
+كلمات مفتاحية</label>
       <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="One or more words used capturing the essence of the data or its metadata profile." class="tip"><i class="icon-question-sign"></i></a>
       <div class="controls">
         <div class="select2-container select2-container-multi" id="s2id_field-tags" style="width: 666px;"><ul class="select2-choices">  <li class="select2-search-field">    <label for="s2id_autogen2" class="select2-offscreen">
   * 
-Keywords</label>    <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input select2-default" id="s2id_autogen2" tabindex="0" style="width: 649px;" placeholder="">  </li></ul><div class="select2-drop select2-drop-multi select2-display-none">   <ul class="select2-results">   </ul></div></div><input id="field-tags" type="text" name="tag_string" value="" placeholder="eg. services, business expectations, industry, BES" data-module="autocomplete" data-module-tags="" data-module-source="/api/2/util/tag/autocomplete?incomplete=?" tabindex="-1" class="select2-offscreen">
+كلمات مفتاحية</label>    <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input select2-default" id="s2id_autogen2" tabindex="0" style="width: 649px;" placeholder="">  </li></ul><div class="select2-drop select2-drop-multi select2-display-none">   <ul class="select2-results">   </ul></div></div><input id="field-tags" type="text" name="tag_string" value="" placeholder="eg. services, business expectations, industry, BES" data-module="autocomplete" data-module-tags="" data-module-source="/api/2/util/tag/autocomplete?incomplete=?" tabindex="-1" class="select2-offscreen">
         
       </div>
     </div>
@@ -1530,17 +1526,17 @@ Keywords</label>    <input type="text" autocomplete="off" autocorrect="off" auto
     <div class="small control-group">
     <label class="control-label" for="field-security_classification">
   <span title="This field is required" class="control-required">*</span> 
-Security Classification</label>
+تصنيف السرية</label>
     <a href="http://sg.staging.ckanhosted.com/dataset/new#" data-toggle="tooltip" title="The extent to which the unauthorised disclosure of the data could be prejudicial or harmful to the interests of the source or other relevant parties." class="tip"><i class="icon-question-sign"></i></a>
     <div class="controls">
       <select id="field-security_classification" name="security_classification">
         
           <option value="Confidential">
-            Confidential
+            سري للغاية
           </option>
           
           <option value="Restricted">
-            Restricted
+            سري
           </option>
           
           <option value="Secret">
