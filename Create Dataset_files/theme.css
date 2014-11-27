@@ -197,7 +197,7 @@ section.grey.horizontal {
   padding-right: 25px;
   cursor: pointer;
   border-radius: 3px;
-  background-image: url(../img/box-icons.png);
+  background-image: url(/ckanpages/img/box-icons.png);
   background-size: auto 182px;
   background-position: -25px center;
   color: #878787;
@@ -219,7 +219,7 @@ section.grey.horizontal {
   color: #2193e4;
 }
 .ie8 .box-list li a {
-  background-image: url(../img/box-icons-small.png);
+  background-image: url(/ckanpages/img/box-icons-small.png);
 }
 .box-list li a h3,
 .box-list li a p {
@@ -674,7 +674,7 @@ a.tag:hover {
   z-index: 1;
 }
 .ie8 .wrapper {
-  background-image: url(../img/nav-small.png);
+  background-image: url(/ckanpages/img/nav-small.png);
 }
 .ie8 .wrapper.no-nav {
   background-image: none;
@@ -705,7 +705,6 @@ a.tag:hover {
 }
 .toolbar {
   margin-top: 20px;
-  margin-right: -40px;
 }
 .toolbar .breadcrumb {
   font-size: 13px;
@@ -870,20 +869,19 @@ a.tag:hover {
 .stages li.complete .highlight {
   background-color: #fff;
   position: relative;
-  text-align: right;
   height: 57px;
   line-height: 57px;
-  padding: 0 0 70 0px;
+  padding: 0 0 0 70px;
   width: 100%;
   color: #878787;
-  background-image: url(../img/add-icons.png);
+  background-image: url(/ckanpages/img/add-icons.png);
   background-size: 51px auto;
   background-repeat: no-repeat;
   background-position: 5px -141px;
 }
 .ie8 .stages li .highlight,
 .ie8 .stages li.complete .highlight {
-  background-image: url(../img/add-icons-small.png);
+  background-image: url(/ckanpages/img/add-icons-small.png);
 }
 .stages li .highlight:before,
 .stages li.complete .highlight:before {
@@ -891,14 +889,14 @@ a.tag:hover {
 }
 .stages li.first .highlight,
 .stages li.complete.first .highlight {
-  background-image: url(../img/add-icons.png);
+  background-image: url(/ckanpages/img/add-icons.png);
   background-size: 51px auto;
   background-repeat: no-repeat;
   background-position: 5px -41px;
 }
 .ie8 .stages li.first .highlight,
 .ie8 .stages li.complete.first .highlight {
-  background-image: url(../img/add-icons-small.png);
+  background-image: url(/ckanpages/img/add-icons-small.png);
 }
 .stages li.first.active .highlight,
 .stages li.complete.first.active .highlight,
@@ -918,7 +916,7 @@ a.tag:hover {
 .stages li.complete.complete .highlight {
   background-color: #fff;
   color: #51d8a0;
-  background-image: url(../img/add-icons.png);
+  background-image: url(/ckanpages/img/add-icons.png);
   background-size: 51px auto;
   background-repeat: no-repeat;
   background-position: 5px -91px;
@@ -927,7 +925,7 @@ a.tag:hover {
 .ie8 .stages li.complete.active .highlight,
 .ie8 .stages li.complete .highlight,
 .ie8 .stages li.complete.complete .highlight {
-  background-image: url(../img/add-icons-small.png);
+  background-image: url(/ckanpages/img/add-icons-small.png);
 }
 .stages li.uncomplete,
 .stages li.complete.uncomplete,
@@ -940,8 +938,7 @@ a.tag:hover {
 }
 .package-form .dataset-form .control-required-message {
   float: right;
-  /*margin-right: 40px;*/
-  margin-left: 40px;
+  margin-right: 40px;
 }
 .package-form .dataset-form label {
   display: inline-block;
@@ -1287,7 +1284,7 @@ a.tag:hover {
   background-position: right center;
 }
 .ie8 .site-footer .attribution .ckan-footer-logo {
-  background-image: url(../img/ckan-logo-footer-small.png);
+  background-image: url(/ckanpages/img/ckan-logo-footer-small.png);
 }
 .homepage .site-search .btn-search,
 .search-form .search-input.search-giant button {
