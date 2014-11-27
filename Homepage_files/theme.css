@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('/ckanpages/fonts/icomoon.eot');
-  src: url('/ckanpages/fonts/icomoon.eot') format('embedded-opentype'), url('/ckanpages/fonts/icomoon.woff') format('woff'), url('/ckanpages/fonts/icomoon.ttf') format('truetype'), url('/ckanpages/fonts/icomoon.svg') format('svg');
+  src: url('http://okfegypt.github.io//ckanpages/fonts/icomoon.eot');
+  src: url('http://okfegypt.github.io//ckanpages/fonts/icomoon.eot') format('embedded-opentype'), url('http://okfegypt.github.io//ckanpages/fonts/icomoon.woff') format('woff'), url('http://okfegypt.github.io//ckanpages/fonts/icomoon.ttf') format('truetype'), url('http://okfegypt.github.io//ckanpages/fonts/icomoon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
