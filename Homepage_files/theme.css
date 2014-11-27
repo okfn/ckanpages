@@ -2,6 +2,7 @@
   font-family: 'icomoon';
   src: url('/ckanpages/fonts/icomoon.eot');
   /*src: url('/ckanpages/fonts/icomoon.eot') format('embedded-opentype'), url('/ckanpages/fonts/icomoon.woff') format('woff'), url('/ckanpages/fonts/icomoon.ttf') format('truetype'), url('/ckanpages/fonts/icomoon.svg') format('svg');*/
+  src: url('/ckanpages/fonts/icomoon.eot') format('embedded-opentype'), url('/ckanpages/fonts/icomoon.ttf') format('truetype'), url('/ckanpages/fonts/icomoon.svg') format('svg');*/
   font-weight: normal;
   font-style: normal;
 }
